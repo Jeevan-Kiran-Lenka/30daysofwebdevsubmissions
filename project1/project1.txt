@@ -1,0 +1,9 @@
+Project 1: HTML Project (Barebones Portfolio)
+
+Create a barebones HTML portfolio website of your own using the following features:
+ 1.Header
+ 2.Footer
+ 3.Contact form with buttons, email input, number input, first name and last name
+ 4.Table
+ 5.Video
+ 6.Images
