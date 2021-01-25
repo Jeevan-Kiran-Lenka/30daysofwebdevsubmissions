@@ -1,0 +1,441 @@
+/* import fonts from font.css */
+@import url(fonts.css);
+
+/* import variables */
+@import url(partials/variables.css);
+
+/* Import global styling */
+@import url(partials/_global.css);
+
+/* Start navigation */
+.header-area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header-area .main-menu .navbar{
+    padding: 1rem 7rem;
+}
+
+.header-area .main-menu .navbar-nav .nav-link{
+    font: normal 500 15px/2px var(--poppins);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+a.nav-link.active{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.navbar-nav a:hover{
+    background: rgb(190, 39, 39);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding: 6px 0;
+}
+/* End navigation */
+
+.text-1{
+    font-size: 27px;
+    color: black;
+}
+.text-2{
+    font-size: 74px;
+    font-weight: 600;
+    margin-left: -3px;
+    color: white;
+}
+.text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.text-3 span{
+    color: white;
+    font-weight: 500;
+}
+
+/* Start banner area */
+body{
+    background-image: url(../images/Sample.jpeg);
+    background-size: cover;
+    min-height: 100%;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar{
+    position: sticky;
+}
+
+.col-lg-6{
+    padding: 4rem;
+}
+
+#blogs{
+    background: whitesmoke;
+}
+
+.button{
+    padding: 0.8rem 2.2rem;
+    font: normal 500 16px/20px var(--poppins);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.button .primary-button{
+    background: red;
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: white;
+}
+
+.button .primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+/* End banner area */
+
+/* Start About Area */ 
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About Area */ 
+
+.btn{
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px var(--roboto);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.button.primary-button{
+    background: var(--gradient-color1);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.button.primary-button:hover{
+    background: rgb(255, 255, 255);
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.primary-button::after, .button.secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px;  right: -2px;
+    background: var(--gradient-color1);
+    content: ' ';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.button.secondary-button{
+    background: white;
+    background-clip: padding-box;
+    transition: background .6s ease;
+}
+
+.button.secondary-button:hover{
+    background: var(--gradient-color1);
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
+
+p.para{
+    color: white;
+    font: normal 500 16px/ 25px var(--poppins);
+    background-color: rgba(36, 15, 14, 0.637);
+}
+
+/* Start brand area */
+
+/* End brand area */
+
+/* Start Services Area */
+
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.site-main .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main .services-area .services:hover{
+    box-shadow: black;
+    cursor: pointer;
+}
+
+
+/* End Services Area */
+
+/* Project Area */ 
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--poppins);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--poppins);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.text-secondary{
+    background-color: white;
+    padding: 0.15rem;
+}
+/* End Project Area */ 
+
+.font-poppins{
+    font-family: var(--poppins);
+}
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.title-h1{
+    font: normal bold 39px/40px var(--poppins);
+}
+
+/* Testimonials */
+
+.site-main .about-area .about-title p{
+    padding: 1rem, 7rem;
+}
+
+.site-main .about-area .client{
+    background: rgba(192, 210, 241, 0.479);
+    box-shadow: whitesmoke;
+    margin: 1rem;
+}
+
+.site-main .about-area .client .client-img{
+    padding: 2rem;
+}
+
+.site-main .about-area .client .about-client{
+    padding-top: 2rem;
+}
+
+.site-main .about-area .client .about-client h4{
+    color: rgb(100, 22, 124);
+    font: normal 500 21px/20px var(--poppins);
+}
+
+.site-main .about-area .client .about-client p{
+    font-size: 14px;
+}
+
+.client .para{
+    background-color: transparent;
+}
+
+.site-main .about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0, 1.5rem;
+}
+
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+
+/* Testimonials */
+
+/* Start Contact area */
+
+.contact-input{
+    width: 100%;
+    font: normal 500 21px/20px var(--poppins);
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1.5px solid black;
+    /* align-items: center; */
+    outline: none;
+    margin-bottom: 2.5rem;
+}
+
+.contact-button{
+    display: block;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-family: var(--poppins);
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: auto;
+    border-i
+}
+
+.contact-form{
+    display: inline-block;
+}
+
+.contact-section .section-title{
+    text-align: center;
+}
+
+/* Start Contact area */
+
+/* Start footer area */
+
+footer.footer-area{
+    padding: 5rem 0;
+    /* background: whitesmoke no-repeat; */
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size: 22px;
+    padding: 2rem;
+    color: white;
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--gradient-color1);
+}
+
+/* End footer area */
+
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0; right: 0;
+    background: rgb(236, 223, 223);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    z-index: 999;
+
+    transition: background 1s ease;
+}
+
+.project-area .button-group #button{
+    color: rgb(255, 255, 255);
+    padding: 2rem;
+}
+
+.typing::after{
+    content: "";
+    position: absolute;
+    right: -5px;
+    width: 1px;
+    height: 105%;
+    border-right: 2px solid white;
+    animation: blink 0.5s infinite ease;
+}
+
+.typing{
+    /* margin-left: 10px; */
+    position: relative;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: crimson;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.scroll-up-btn:hover{
+    filter: brightness(90%);
+}
+
+.card-title, .my-4{
+    font-family: var(--poppins);
+}
+
+.small{
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,26 @@
+
+html, body{
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS Variable */
+
+:root{
+    --primary-color: #4458dc;
+    --primary-color2: #854fce;
+    --title-color: #141313;
+    --text-color: #777777;
+    --border-color: #201f1f17;
+    --gradient-color: linear-gradient(90deg,#4458de 8%, #854fce 100%);
+    --gradient-color1: linear-gradient(90deg, rgb(64, 29, 216) 8%, #22ccc4 100%);
+    --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
+    --box-shadow: 0px 10px 30px rgba(221, 217, 236, 0.205);
+
+    /* fixed font variable */
+    --poppins: "Poppins",cursive;
+}
+
+
